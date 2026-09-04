@@ -7,13 +7,13 @@ about:
   head: aaf3882
   archived: false
   latestVersion: v5.2.0
-  collectedAt: 2026-09-04T20:09:21Z
+  collectedAt: 2026-09-04T20:31:08Z
 timeline:
   created: 2026-01-09
   lastCommit: 2026-09-03
   lastRelease: 2026-09-03
 popularity:
-  star: 39006
+  star: 39008
   watcher: 130
   fork: 3495
   release: 249
@@ -85,7 +85,7 @@ total:
   commit: 4587
 ---
 path: /home/runner/.x-repo/github.com/Yeachan-Heo/oh-my-claudecode
-collectedAt: 2026-09-04T20:09:31Z
+collectedAt: 2026-09-04T20:31:20Z
 loc:
   TypeScript:
     code: 337850
