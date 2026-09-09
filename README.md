@@ -7,7 +7,7 @@ Teams-first Multi-agent orchestration for Claude Code
 - **Latest release**: `v5.3.0` (2026-09-06)
 - **Last commit**: 2026-09-06
 - **License**: MIT
-- **Stars**: 39062 · **Forks**: 3497 · **Open issues**: 1438 · **Contributors**: 144
+- **Stars**: 39064 · **Forks**: 3499 · **Open issues**: 1438 · **Contributors**: 144
 
 ## Installation
 
@@ -21,4 +21,4 @@ See <https://x-cmd.com/install/oh-my-claudecode> for details.
 
 This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-09T05:54:33Z._
+_Last regenerated: 2026-09-09T19:49:04Z._
