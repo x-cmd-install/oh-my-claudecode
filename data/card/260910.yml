@@ -7,7 +7,7 @@ about:
   latestVersion: "v5.3.0"
   latestRelease: "v5.3.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T17:31:20Z
+  collectedAt: 2026-09-10T23:58:49Z
 timeline:
   created: 2026-01-09
   lastCommit: 2026-09-06
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-09-06
   lastPrerelease: 
 popularity:
-  star: 39085
+  star: 39090
   watcher: 131
   fork: 3499
   release: 250
@@ -87,7 +87,7 @@ total:
   commit: 4624
 ---
 path: /home/runner/.x-repo/github.com/Yeachan-Heo/oh-my-claudecode
-collectedAt: 2026-09-10T17:31:44Z
+collectedAt: 2026-09-10T23:59:11Z
 loc:
   TypeScript:
     code: 339528
