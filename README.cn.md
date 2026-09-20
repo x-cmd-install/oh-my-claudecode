@@ -4,7 +4,7 @@
 
 Teams-first Multi-agent orchestration for Claude Code
 
-![oh-my-claudecode](https://repo.x-cmd.io/oh-my-claudecode.svg?lang=zh)
+[![x-cmd/install — oh-my-claudecode Code Quality Monitoring Repo Card](https://repo.x-cmd.io/oh-my-claudecode.svg?lang=zh)](https://x-cmd.com/install/oh-my-claudecode)
 
 ## 安装
 
@@ -37,22 +37,22 @@ x install oh-my-claudecode
 
 ## 流行度
 
-- **Star**: 39,233 · **Fork**: 3,509 · **开放 issue**: 1,447 · **贡献者**: 147
+- **Star**: 39,262 · **Fork**: 3,512 · **开放 issue**: 1,448 · **贡献者**: 147
 
 ## 累计统计
 
-- **发布数**: 251 · **已合并 PR**: 1838 · **开放 PR**: 2 · **已关闭 issue**: 1445 · **开放 issue**: 2 · **提交数**: 4747
+- **发布数**: 251 · **已合并 PR**: 1840 · **开放 PR**: 2 · **已关闭 issue**: 1446 · **开放 issue**: 2 · **提交数**: 4747
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 7 | 167 | 2 | 63 | 1 | 815 |
-| last60d | 2026-07-20 | 11 | 275 | 2 | 128 | 2 | 1138 |
-| 90d | 2026-06-20 | 18 | 361 | 2 | 206 | 2 | 1241 |
-| last180d | 2026-03-22 | 49 | 948 | 2 | 736 | 2 | 2168 |
-| 360d | 2025-09-23 | 100 | 1838 | 2 | 1445 | 2 | 3702 |
-| last720d | 2024-09-28 | 100 | 1838 | 2 | 1445 | 2 | 4747 |
+| 30d | 2026-08-21 | 7 | 168 | 2 | 63 | 1 | 815 |
+| last60d | 2026-07-22 | 11 | 268 | 2 | 121 | 2 | 1138 |
+| 90d | 2026-06-22 | 18 | 358 | 2 | 202 | 2 | 1241 |
+| last180d | 2026-03-24 | 49 | 928 | 2 | 723 | 2 | 2168 |
+| 360d | 2025-09-25 | 100 | 1840 | 2 | 1446 | 2 | 3702 |
+| last720d | 2024-09-30 | 100 | 1840 | 2 | 1446 | 2 | 4747 |
 
 ## 改进这些数据
 
@@ -63,4 +63,4 @@ oh-my-claudecode 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260918.yml` · 2026-09-18T05:54:06Z._
+_数据快照: `data/card/260920.yml` · 2026-09-20T06:03:10Z._
