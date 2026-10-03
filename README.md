@@ -33,26 +33,26 @@ Total: **516,669** lines of code across **1691** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v5.6.0` (2026-10-01)
-- **Last commit**: 2026-10-01
+- **Last commit**: 2026-10-03
 
 ## Popularity
 
-- **Stars**: 39,525 · **Forks**: 3,534 · **Open issues**: 1,488 · **Contributors**: 158
+- **Stars**: 39,545 · **Forks**: 3,531 · **Open issues**: 1,490 · **Contributors**: 158
 
 ## Totals (cumulative)
 
-- **Releases**: 253 · **Merged PRs**: 1940 · **Open PRs**: 1 · **Closed issues**: 1486 · **Open issues**: 2 · **Commits**: 4991
+- **Releases**: 253 · **Merged PRs**: 1943 · **Open PRs**: 1 · **Closed issues**: 1488 · **Open issues**: 2 · **Commits**: 4992
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-02 | 5 | 174 | 1 | 67 | 1 | 336 |
-| last60d | 2026-08-03 | 12 | 329 | 1 | 148 | 2 | 1276 |
-| 90d | 2026-07-04 | 17 | 419 | 1 | 209 | 2 | 1387 |
-| last180d | 2026-04-05 | 45 | 901 | 1 | 678 | 2 | 2147 |
-| 360d | 2025-10-07 | 100 | 1940 | 1 | 1486 | 2 | 3891 |
-| last720d | 2024-10-12 | 100 | 1940 | 1 | 1486 | 2 | 4991 |
+| 30d | 2026-09-03 | 5 | 167 | 1 | 63 | 1 | 0 |
+| last60d | 2026-08-04 | 12 | 331 | 1 | 150 | 2 | 0 |
+| 90d | 2026-07-05 | 17 | 420 | 1 | 210 | 2 | 0 |
+| last180d | 2026-04-06 | 45 | 896 | 1 | 669 | 2 | 0 |
+| 360d | 2025-10-08 | 100 | 1943 | 1 | 1488 | 2 | 0 |
+| last720d | 2024-10-13 | 100 | 1943 | 1 | 1488 | 2 | 4992 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for oh-my-claudecode lives in the [x-cmd/install](https://githu
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261002.yml` · 2026-10-02T06:24:38Z._
+_Snapshot: `data/card/261003.yml` · 2026-10-03T06:04:18Z._
