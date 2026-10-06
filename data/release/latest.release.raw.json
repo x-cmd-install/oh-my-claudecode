@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/402372226",
-  "assets_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/402372226/assets",
-  "upload_url": "https://uploads.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/402372226/assets{?name,label}",
-  "html_url": "https://github.com/Yeachan-Heo/oh-my-claudecode/releases/tag/v5.6.1",
-  "id": 402372226,
+  "url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/404375495",
+  "assets_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/404375495/assets",
+  "upload_url": "https://uploads.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/404375495/assets{?name,label}",
+  "html_url": "https://github.com/Yeachan-Heo/oh-my-claudecode/releases/tag/v5.6.2",
+  "id": 404375495,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOQ2bIec4X-7aC",
-  "tag_name": "v5.6.1",
+  "node_id": "RE_kwDOQ2bIec4YGkfH",
+  "tag_name": "v5.6.2",
   "target_commitish": "main",
-  "name": "v5.6.1",
+  "name": "v5.6.2",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-03T06:21:48Z",
-  "updated_at": "2026-10-03T06:44:34Z",
-  "published_at": "2026-10-03T06:44:34Z",
+  "created_at": "2026-10-06T05:54:53Z",
+  "updated_at": "2026-10-06T06:15:10Z",
+  "published_at": "2026-10-06T06:15:10Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/tarball/v5.6.1",
-  "zipball_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/zipball/v5.6.1",
-  "body": "# oh-my-claudecode v5.6.1: Maintenance Release\n\n## Release Notes\n\nMaintenance release with internal improvements.\n\n### Stats\n\n- **1 PR merged** | **0 new features** | **0 bug fixes** | **0 security/hardening improvements** | **0 other changes**\n\n### Install / Update\n\nThe npm CLI and the Claude Code marketplace/plugin are separate install tracks, not either/or replacements. Update whichever track you use; if you have both installed, update both. CLI-dependent skill paths such as `ask` and CLI-backed `team` require the `omc` CLI from the npm package.\n\n**CLI / runtime:**\n\n```bash\nnpm install -g oh-my-claude-sisyphus@5.6.1\n```\n\n**Claude Code plugin:**\n\n```text\n/plugin marketplace update omc\n```\n\n**Full Changelog**: https://github.com/Yeachan-Heo/oh-my-claudecode/compare/v5.6.0...v5.6.1\n"
+  "tarball_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/tarball/v5.6.2",
+  "zipball_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/zipball/v5.6.2",
+  "body": "# oh-my-claudecode v5.6.2: per-role reasoningEffort in, map-driven runs end, from-map --execute —\n\n## Release Notes\n\nRelease with **5 new features**, **13 bug fixes**, **7 other changes** across **29 merged PRs**.\n\n### Highlights\n\n- **feat(team): per-role reasoningEffort in roleRouting** (#4206)\n- **feat(ralph): map-driven runs end to end — PRD compose, launch gate, write-back (spec #51 T-D)**\n- **feat(ralph): from-map --execute — claims with provenance, routes human gates, drafts criteria and stops (spec #51 T-C)**\n- **feat(ralph): omc ralph from-map — plan a run from a wayfinder map (spec #51 T-B)**\n- **feat(factory): wayfinder map frontier enumerator (pure seam, spec #51 T-A)**\n\n### New Features\n\n- **feat(team): per-role reasoningEffort in roleRouting** (#4206)\n- **feat(ralph): map-driven runs end to end — PRD compose, launch gate, write-back (spec #51 T-D)**\n- **feat(ralph): from-map --execute — claims with provenance, routes human gates, drafts criteria and stops (spec #51 T-C)**\n- **feat(ralph): omc ralph from-map — plan a run from a wayfinder map (spec #51 T-B)**\n- **feat(factory): wayfinder map frontier enumerator (pure seam, spec #51 T-A)**\n\n### Bug Fixes\n\n- **fix(atomic-write): skip directory fsync on Windows to prevent EPERM** (#3744)\n- **fix(#4221): parse before mode lookup, drop lossy substring skip; cover git-guardrails worker path** (#4221)\n- **fix(#4217): warn when postinstall cannot build contained-fs; make tarball install check fail honestly** (#4217)\n- **fix: use relative timestamps in runs-reconciler fixtures to prevent time-bomb failures**\n- **fix: normalize node:test duration_ms and exclude pass/test counters from failure signatures**\n- **fix(team): strict process-start identity on native Windows** (#4211)\n- **fix(jev): restore real script active-mode regressions**\n- **fix: preemptive-compaction awaits active result; script hooks consume answers**\n- **fix: wire active mode answer consumption in script and TS callers** (#4208)\n- **fix(jev): make :active mode consume the Jev answer** (#4208)\n- **fix(team): restrict reasoningEffort to providers with a verified CLI flag; export OMC_TEAM_ROLE on scale-up** (#4206)\n- **fix(hooks): run state-only PostToolUse hook async** (#4204)\n- **fix: resolve session paths using getOmcRoot for multi-repo support**\n\n### Documentation\n\n- **docs: update Jev active mode behavior documentation**\n\n### Other Changes\n\n- **chore(inventory): regenerate inventory graph for #4217 packaging files**\n- **chore: refresh inventory after runs-reconciler fixture fix**\n- **chore: refresh inventory for fix #4215**\n- **chore(inventory): regenerate inventory graph for #4211**\n- **chore(inventory): refresh graph from clean Jev fix checkout**\n- **chore(inventory): regenerate inventory graph from clean checkout** (#4206)\n- **chore(inventory): regenerate inventory graph from clean checkout** (#4204)\n\n### Stats\n\n- **29 PRs merged** | **5 new features** | **13 bug fixes** | **0 security/hardening improvements** | **7 other changes**\n\n### Install / Update\n\nThe npm CLI and the Claude Code marketplace/plugin are separate install tracks, not either/or replacements. Update whichever track you use; if you have both installed, update both. CLI-dependent skill paths such as `ask` and CLI-backed `team` require the `omc` CLI from the npm package.\n\n**CLI / runtime:**\n\n```bash\nnpm install -g oh-my-claude-sisyphus@5.6.2\n```\n\n**Claude Code plugin:**\n\n```text\n/plugin marketplace update omc\n```\n\n**Full Changelog**: https://github.com/Yeachan-Heo/oh-my-claudecode/compare/v5.6.1...v5.6.2\n"
 }
