@@ -14,12 +14,12 @@ x install oh-my-claudecode
 
 ## Code insight
 
-Total: **541,236** lines of code across **1738** files in the top 5 languages.
+Total: **541,662** lines of code across **1740** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| TypeScript | 395,297 | 39,094 | 50,918 | 1501 |
-| Json | 101,978 | 0 | 0 | 60 |
+| TypeScript | 395,634 | 39,115 | 50,982 | 1503 |
+| Json | 102,067 | 0 | 0 | 60 |
 | JavaScript | 37,188 | 4,150 | 3,923 | 142 |
 | Sh | 4,283 | 717 | 801 | 30 |
 | Python | 2,037 | 118 | 373 | 5 |
@@ -32,27 +32,27 @@ Total: **541,236** lines of code across **1738** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `v5.7.0` (2026-10-12)
-- **Last commit**: 2026-10-12
+- **Latest**: `v5.7.1` (2026-10-13)
+- **Last commit**: 2026-10-13
 
 ## Popularity
 
-- **Stars**: 39,806 · **Forks**: 3,567 · **Open issues**: 1,523 · **Contributors**: 161
+- **Stars**: 39,850 · **Forks**: 3,571 · **Open issues**: 1,527 · **Contributors**: 161
 
 ## Totals (cumulative)
 
-- **Releases**: 256 · **Merged PRs**: 2022 · **Open PRs**: 0 · **Closed issues**: 1522 · **Open issues**: 1 · **Commits**: 5438
+- **Releases**: 257 · **Merged PRs**: 2031 · **Open PRs**: 1 · **Closed issues**: 1525 · **Open issues**: 2 · **Commits**: 5456
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-12 | 5 | 206 | 0 | 80 | 0 | 504 |
-| last60d | 2026-08-13 | 12 | 358 | 0 | 146 | 0 | 1359 |
-| 90d | 2026-07-14 | 18 | 471 | 0 | 220 | 1 | 1685 |
-| last180d | 2026-04-15 | 41 | 818 | 0 | 536 | 1 | 2215 |
-| 360d | 2025-10-17 | 100 | 2022 | 0 | 1522 | 1 | 4245 |
-| last720d | 2024-10-22 | 100 | 2022 | 0 | 1522 | 1 | 5438 |
+| 30d | 2026-09-13 | 6 | 208 | 1 | 83 | 1 | 517 |
+| last60d | 2026-08-14 | 13 | 365 | 1 | 147 | 1 | 1372 |
+| 90d | 2026-07-15 | 19 | 478 | 1 | 221 | 2 | 1698 |
+| last180d | 2026-04-16 | 42 | 815 | 1 | 527 | 2 | 2228 |
+| 360d | 2025-10-18 | 100 | 2031 | 1 | 1525 | 2 | 4258 |
+| last720d | 2024-10-23 | 100 | 2031 | 1 | 1525 | 2 | 5456 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for oh-my-claudecode lives in the [x-cmd/install](https://githu
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261012.yml` · 2026-10-12T06:50:03Z._
+_Snapshot: `data/card/261013.yml` · 2026-10-13T07:51:24Z._
