@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/415630982",
-  "assets_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/415630982/assets",
-  "upload_url": "https://uploads.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/415630982/assets{?name,label}",
-  "html_url": "https://github.com/Yeachan-Heo/oh-my-claudecode/releases/tag/v5.7.4",
-  "id": 415630982,
+  "url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/416292135",
+  "assets_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/416292135/assets",
+  "upload_url": "https://uploads.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/416292135/assets{?name,label}",
+  "html_url": "https://github.com/Yeachan-Heo/oh-my-claudecode/releases/tag/v5.7.5",
+  "id": 416292135,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,21 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOQ2bIec4YxgaG",
-  "tag_name": "v5.7.4",
+  "node_id": "RE_kwDOQ2bIec4Y0B0n",
+  "tag_name": "v5.7.5",
   "target_commitish": "main",
-  "name": "v5.7.4",
+  "name": "v5.7.5",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-17T06:17:18Z",
-  "updated_at": "2026-10-17T06:39:33Z",
-  "published_at": "2026-10-17T06:39:33Z",
+  "created_at": "2026-10-18T06:37:00Z",
+  "updated_at": "2026-10-18T08:44:39Z",
+  "published_at": "2026-10-18T07:02:02Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/tarball/v5.7.4",
-  "zipball_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/zipball/v5.7.4",
-  "body": "# oh-my-claudecode v5.7.4: More reliable hooks, team workflows, HUD, and Jev planning\n\n## Release Notes\n\nRelease with **1 new feature**, **4 bug fixes**, **1 performance improvement**, and **3 test improvements** across **9 merged PRs**.\n\n### Highlights\n\n- **feat(jev): add OMC_JEV_PLAN_MODE to keep Jev from deciding in plan mode** (#4395)\n- **fix(team): quarantine stale Cursor verdicts and retain them on unreadable tasks** (#4380)\n- **perf(hooks): launch the file-context injectors only for the tools they act on** (#4373)\n\n### New Features\n\n- **feat(jev): add OMC_JEV_PLAN_MODE to keep Jev from deciding in plan mode** (#4395)\n\n### Performance Improvements\n\n- **perf(hooks): launch the file-context injectors only for the tools they act on** (#4373)\n  - File-context injectors now launch only for the tools they act on, reducing hook overhead.\n\n### Bug Fixes\n\n- **fix(plugin-cache): link stale plugin roots only to a real cache directory** (#4375)\n- **fix(installer): log CLAUDE.md as already up to date when install leaves it unchanged** (#4377)\n- **fix(team): quarantine stale Cursor verdicts and retain them on unreadable tasks** (#4380)\n- **fix: scope HUD stdin cache per session using stdin.session_id** (#4398)\n\n### Test Improvements\n\n- **test(run-cjs): blank user-level OMC env in the worker skip-guard hook spawns** (#4376)\n- **test(atomic-write): give SQLite contention timing bounds a runner margin** (#4385)\n- **test: make shutdown and state-clear race checks environment-independent** (#4379)\n\n### Stats\n\n- **9 PRs merged** | **1 new feature** | **4 bug fixes** | **1 performance improvement** | **3 test improvements**\n\n### Install / Update\n\nThe npm CLI and the Claude Code marketplace/plugin are separate install tracks, not either/or replacements. Update whichever track you use; if you have both installed, update both. CLI-dependent skill paths such as `ask` and CLI-backed `team` require the `omc` CLI from the npm package.\n\n**CLI / runtime:**\n\n```bash\nnpm install -g oh-my-claude-sisyphus@5.7.4\n```\n\n**Claude Code plugin:**\n\n```text\n/plugin marketplace update omc\n```\n\n**Full Changelog**: https://github.com/Yeachan-Heo/oh-my-claudecode/compare/v5.7.3...v5.7.4\n"
+  "tarball_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/tarball/v5.7.5",
+  "zipball_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/zipball/v5.7.5",
+  "body": "# oh-my-claudecode v5.7.5: stricter frontmatter and config parsing, team startup fixes, merge-readiness MCP tools removed\n\n## Highlights\n\n- **feat(installer): add `claudeMdEnabled` opt-out for the global CLAUDE.md** (#4383)\n- **fix: remove retired merge-readiness MCP tools** (#4422)\n- **fix(team): align worker startup ACK and shutdown instructions** (#4404) and **stabilize cmux worker startup** (#4412)\n- **Frontmatter parsing:** YAML block scalars `>-`/`|` (#4405), leading UTF-8 BOM in skill/command/rule files (#4408), CRLF in command files (#4402), quoted flow values (#4393)\n\n## Bug Fixes\n\n- fix(state-manager): match list and cleanup glob patterns literally (#4390)\n- fix(ralph): retain feedback failures when tests log ENOENT (#4399)\n- fix(session-start): bound the stabilization helper lifetime and batch the darwin identity probe (#4384)\n- fix(learner): parse block-list skill metadata in CRLF files (#4392)\n- fix(learner): match glob triggers literally apart from `*` (#4418)\n- fix: ignore malformed `OMC_CONTEXT_GUARD_THRESHOLD` in the context guard (#4388)\n- fix: ignore malformed values in the security config section (#4389)\n- fix(rules-injector): support `{a,b}` brace alternation in rule globs (#4403)\n- fix(rules-injector): ignore trailing YAML comments in rule frontmatter and preserve quoted hashes (#4407) — thanks @rudycelekli\n- fix(rules-injector): read block lists indented level with their key (#4406)\n- fix(wiki): accept a leading UTF-8 BOM in wiki page frontmatter\n- fix(autoresearch): keep quotes inside an unquoted sandbox.md value (#4411)\n- fix(cli): reject non-integer values for wait and session numeric options (#4409)\n- fix(factory): validate `listen --port` as an integer in 0-65535 (#4420)\n- fix(doctor): ignore empty `OMC_SKIP_HOOKS` entries (#4417)\n- fix(factcheck): match strict project globs literally (#4416)\n- test(session-end): stabilize configured process exit on CI (#4397)\n\n## Install / Update\n\nThe npm CLI and the Claude Code marketplace/plugin are separate install tracks. Update whichever track you use; if you have both, update both.\n\n**CLI / runtime:**\n\n```bash\nnpm install -g oh-my-claude-sisyphus@5.7.5\n```\n\n**Claude Code plugin:**\n\n```text\n/plugin marketplace update omc\n```\n\n**Full Changelog**: https://github.com/Yeachan-Heo/oh-my-claudecode/compare/v5.7.4...v5.7.5\n\n—\n*[repo owner's gaebal-gajae (clawdbot) 🦞]*\n",
+  "mentions_count": 1
 }
