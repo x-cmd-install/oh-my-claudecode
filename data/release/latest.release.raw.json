@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/421906876",
-  "assets_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/421906876/assets",
-  "upload_url": "https://uploads.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/421906876/assets{?name,label}",
-  "html_url": "https://github.com/Yeachan-Heo/oh-my-claudecode/releases/tag/v5.7.11",
-  "id": 421906876,
+  "url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/423008067",
+  "assets_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/423008067/assets",
+  "upload_url": "https://uploads.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/423008067/assets{?name,label}",
+  "html_url": "https://github.com/Yeachan-Heo/oh-my-claudecode/releases/tag/v5.7.14",
+  "id": 423008067,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,21 +25,21 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOQ2bIec4ZJcm8",
-  "tag_name": "v5.7.11",
+  "node_id": "RE_kwDOQ2bIec4ZNpdD",
+  "tag_name": "v5.7.14",
   "target_commitish": "main",
-  "name": "v5.7.11",
+  "name": "v5.7.14",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-23T13:32:32Z",
-  "updated_at": "2026-10-23T13:57:30Z",
-  "published_at": "2026-10-23T13:57:30Z",
+  "created_at": "2026-10-24T21:42:49Z",
+  "updated_at": "2026-10-24T22:06:45Z",
+  "published_at": "2026-10-24T22:06:45Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/tarball/v5.7.11",
-  "zipball_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/zipball/v5.7.11",
-  "body": "# oh-my-claudecode v5.7.11: Safer guarded input around trust prompts\n\n## Release Notes\n\nThis release prevents guarded pane input from typing into any trust prompt or selecting a trust decision. Thanks to @iyoda for the contribution to #4528.\n\n### Bug Fixes\n\n- **fix(team): refuse guarded pane input on every trust prompt kind** (#4528, @iyoda)\n\n### Other Changes\n\n- **chore(sync): merge main v5.7.10 release into dev** (#4532)\n- **ci: authorize generated artifacts for sync PR #4532** (#4533)\n\n### Install / Update\n\nThe npm CLI and the Claude Code marketplace/plugin are separate install tracks, not either/or replacements. Update whichever track you use; if you have both installed, update both. CLI-dependent skill paths such as `ask` and CLI-backed `team` require the `omc` CLI from the npm package.\n\n**CLI / runtime:**\n\n```bash\nnpm install -g oh-my-claude-sisyphus@5.7.11\n```\n\n**Claude Code plugin:**\n\n```text\n/plugin marketplace update omc\n```\n\n**Full Changelog**: https://github.com/Yeachan-Heo/oh-my-claudecode/compare/v5.7.10...v5.7.11\n\n## Contributors\n\nThank you to all contributors who made this release possible!\n\n@iyoda @Yeachan-Heo\n",
-  "mentions_count": 2
+  "tarball_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/tarball/v5.7.14",
+  "zipball_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/zipball/v5.7.14",
+  "body": "# oh-my-claudecode v5.7.14: More reliable Stop hooks and leaner team handling\n\n## Release Notes\n\nThis release fixes Stop-hook shadow resolver cleanup and removes the unwired team-dispatch implementation. Thanks to @iyoda for #4581 and to @rolldav for reporting #4575.\n\n### Highlights\n\n- **fix: detach shadow Jev resolver for Stop hooks** (#4580, fixes #4575; reported by @rolldav), recording loop-continuation and learner-extraction shadow entries and cleaning up `/tmp` request files.\n- **chore(hooks): remove the unwired team-dispatch hook and generated outputs** (#4581, supersedes #4566; @iyoda)\n\n### Bug Fixes\n\n- **fix: detach shadow Jev resolver for Stop hooks** (#4580, fixes #4575; reported by @rolldav), recording loop-continuation and learner-extraction shadow entries and cleaning up `/tmp` request files.\n\n### Other Changes\n\n- **chore(hooks): remove the unwired team-dispatch hook and generated outputs** (#4581, supersedes #4566; @iyoda)\n- **ci: authorize generated artifacts for the team-dispatch removal** (#4577, #4582, #4587)\n- **chore(sync): merge the v5.7.13 main release into dev** (#4590)\n- **ci: authorize generated artifacts for the v5.7.13 main-to-dev sync** (#4591)\n\n### Stats\n\n- **7 merged PRs** | **1 bug fix** | **6 other changes**\n\n### Install / Update\n\nThe npm CLI and the Claude Code marketplace/plugin are separate install tracks, not either/or replacements. Update whichever track you use; if you have both installed, update both. CLI-dependent skill paths such as `ask` and CLI-backed `team` require the `omc` CLI from the npm package.\n\n**CLI / runtime:**\n\n```bash\nnpm install -g oh-my-claude-sisyphus@5.7.14\n```\n\n**Claude Code plugin:**\n\n```text\n/plugin marketplace update omc\n```\n\n**Full Changelog**: https://github.com/Yeachan-Heo/oh-my-claudecode/compare/v5.7.13...v5.7.14\n\n## Contributors\n\nThank you to all contributors who made this release possible!\n\n@rolldav @iyoda @Yeachan-Heo\n",
+  "mentions_count": 3
 }
