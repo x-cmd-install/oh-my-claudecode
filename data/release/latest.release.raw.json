@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/428571157",
-  "assets_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/428571157/assets",
-  "upload_url": "https://uploads.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/428571157/assets{?name,label}",
-  "html_url": "https://github.com/Yeachan-Heo/oh-my-claudecode/releases/tag/v5.7.21",
-  "id": 428571157,
+  "url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/429437747",
+  "assets_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/429437747/assets",
+  "upload_url": "https://uploads.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/429437747/assets{?name,label}",
+  "html_url": "https://github.com/Yeachan-Heo/oh-my-claudecode/releases/tag/v5.7.22",
+  "id": 429437747,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,21 +25,21 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOQ2bIec4Zi3oV",
-  "tag_name": "v5.7.21",
+  "node_id": "RE_kwDOQ2bIec4ZmLMz",
+  "tag_name": "v5.7.22",
   "target_commitish": "main",
-  "name": "v5.7.21",
+  "name": "v5.7.22",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-30T01:28:03Z",
-  "updated_at": "2026-10-30T01:48:09Z",
-  "published_at": "2026-10-30T01:48:09Z",
+  "created_at": "2026-10-30T19:42:32Z",
+  "updated_at": "2026-10-30T19:59:37Z",
+  "published_at": "2026-10-30T19:59:37Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/tarball/v5.7.21",
-  "zipball_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/zipball/v5.7.21",
-  "body": "# oh-my-claudecode v5.7.21: Clearer state output and restored team missions\n\n## Release Notes\n\nThis release bounds `state_clear` diagnostics, removes invalid agent frontmatter that caused startup warnings, and restores team mission discovery when no session snapshot exists. Thanks to @iyoda for the fixes; #4654 was reported by @conarti and #4657 by @fvegiard.\n\n### Bug Fixes\n\n- **fix(state): limit `state_clear` missing-state path output to the requested session, or cap checked paths with an `and N more` count** (#4654, fixes #4651; reported by @conarti)\n- **fix(agents): drop the unrecognized top-level `level` frontmatter key to prevent Claude Code startup warnings** (#4657, fixes #4656; reported by @fvegiard)\n- **fix(hud/cli): show team missions when no session mission snapshot exists and expire completed missions in that team-only view** (#4661, #4662; @iyoda)\n\n### Other Changes\n\n- **chore(sync): merge main's v5.7.20 release into dev** (#4658)\n- **ci: authorize and refresh generated artifacts for main-to-dev sync PR #4658** (#4659, #4660, #4663)\n\n### Stats\n\n- **8 PRs merged** | **0 new features** | **4 bug fixes** | **0 performance improvements** | **4 other changes**\n\n### Install / Update\n\nThe npm CLI and the Claude Code marketplace/plugin are separate install tracks, not either/or replacements. Update whichever track you use; if you have both installed, update both. CLI-dependent skill paths such as `ask` and CLI-backed `team` require the `omc` CLI from the npm package.\n\n**CLI / runtime:**\n\n```bash\nnpm install -g oh-my-claude-sisyphus@5.7.21\n```\n\n**Claude Code plugin:**\n\n```text\n/plugin marketplace update omc\n```\n\n**Full Changelog**: https://github.com/Yeachan-Heo/oh-my-claudecode/compare/v5.7.20...v5.7.21\n\n## Contributors\n\nThank you to all contributors who made this release possible!\n\n@iyoda @conarti @fvegiard @Yeachan-Heo\n",
-  "mentions_count": 4
+  "tarball_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/tarball/v5.7.22",
+  "zipball_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/zipball/v5.7.22",
+  "body": "# oh-my-claudecode v5.7.22: Configurable quality gates for workflow stages\n\n## Release Notes\n\nThis release adds configurable blocking and advisory quality gates for the deep-interview, ralplan, and review workflow stages, with settings in user or project OMC config and `omc quality-gates list` for inspecting gate configuration. It also prevents a stage from using its own controller skill as a gate and keeps stages without configured gates as strict no-ops. Thanks to @iyoda for #4670 and #4671, and to @iqdoctor for requesting the original port.\n\n### New Features\n\n- **feat(quality-gates): configure blocking and advisory custom gates for deep-interview, ralplan, and review, and inspect them with `omc quality-gates list`** (#4670; ported from oh-my-codex#3956, issue #3955; requested by @iqdoctor; @iyoda)\n\n### Quality-Gate Safety\n\n- **fix(quality-gates): reject a stage's own controller skill as a gate to prevent self-recursion, and skip gate lookup and prompt-spec work for unconfigured stages** (#4671; @iyoda)\n\n### Other Changes\n\n- **chore(sync): merge main's v5.7.21 release into dev** (#4667)\n- **ci: authorize generated artifacts for main-to-dev sync PR #4667** (#4668)\n\n### Stats\n\n- **4 PRs merged** | **1 new feature** | **1 quality-gate safety improvement** | **2 other changes**\n\n### Install / Update\n\nThe npm CLI and the Claude Code marketplace/plugin are separate install tracks, not either/or replacements. Update whichever track you use; if you have both installed, update both. CLI-dependent skill paths such as `ask` and CLI-backed `team` require the `omc` CLI from the npm package.\n\n**CLI / runtime:**\n\n```bash\nnpm install -g oh-my-claude-sisyphus@5.7.22\n```\n\n**Claude Code plugin:**\n\n```text\n/plugin marketplace update omc\n```\n\n**Full Changelog**: https://github.com/Yeachan-Heo/oh-my-claudecode/compare/v5.7.21...v5.7.22\n\n## Contributors\n\nThank you to all contributors who made this release possible!\n\n@iqdoctor @iyoda @Yeachan-Heo\n",
+  "mentions_count": 3
 }
