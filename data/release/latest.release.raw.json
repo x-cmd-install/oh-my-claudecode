@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/430410208",
-  "assets_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/430410208/assets",
-  "upload_url": "https://uploads.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/430410208/assets{?name,label}",
-  "html_url": "https://github.com/Yeachan-Heo/oh-my-claudecode/releases/tag/v5.7.26",
-  "id": 430410208,
+  "url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/431056952",
+  "assets_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/431056952/assets",
+  "upload_url": "https://uploads.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/431056952/assets{?name,label}",
+  "html_url": "https://github.com/Yeachan-Heo/oh-my-claudecode/releases/tag/v5.7.30",
+  "id": 431056952,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,21 +25,21 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOQ2bIec4Zp4ng",
-  "tag_name": "v5.7.26",
+  "node_id": "RE_kwDOQ2bIec4ZsWg4",
+  "tag_name": "v5.7.30",
   "target_commitish": "main",
-  "name": "v5.7.26",
+  "name": "v5.7.30",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-11-01T06:27:13Z",
-  "updated_at": "2026-11-01T06:46:54Z",
-  "published_at": "2026-11-01T06:46:54Z",
+  "created_at": "2026-11-02T03:37:14Z",
+  "updated_at": "2026-11-02T03:59:05Z",
+  "published_at": "2026-11-02T03:59:05Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/tarball/v5.7.26",
-  "zipball_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/zipball/v5.7.26",
-  "body": "# oh-my-claudecode v5.7.26: Keep project memory and workflow routing current\n\n## Release Notes\n\nThis release keeps project-memory hot paths aligned with the files users are working on and stops retired workflow names from being recommended or routed at runtime. Thanks to @iyoda for #4698 and #4699.\n\n### Bug Fixes\n\n- **fix(project-memory): make hot paths follow current work** (#4698; @iyoda)\n- **fix(workflows): drop retired ultraqa, omc-teams, and ultrawork names that still route** (#4699; @iyoda)\n\n### Stats\n\n- **2 PRs merged** | **0 new features** | **2 bug fixes**\n\n### Install / Update\n\nThe npm CLI and the Claude Code marketplace/plugin are separate install tracks, not either/or replacements. Update whichever track you use; if you have both installed, update both. CLI-dependent skill paths such as `ask` and CLI-backed `team` require the `omc` CLI from the npm package.\n\n**CLI / runtime:**\n\n```bash\nnpm install -g oh-my-claude-sisyphus@5.7.26\n```\n\n**Claude Code plugin:**\n\n```text\n/plugin marketplace update omc\n```\n\n**Full Changelog**: https://github.com/Yeachan-Heo/oh-my-claudecode/compare/v5.7.25...v5.7.26\n\n## Contributors\n\nThank you to all contributors who made this release possible!\n\n@iyoda @Yeachan-Heo\n",
+  "tarball_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/tarball/v5.7.30",
+  "zipball_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/zipball/v5.7.30",
+  "body": "# oh-my-claudecode v5.7.30: Fix Windows executable search in project folder\n\n## Release Notes\n\nThis release fixes a security issue where omc processes on Windows could inadvertently run executables planted in the project folder.\n\n### Bug Fixes\n\n- **fix: stop omc processes on Windows from running executables planted in the project folder** (#4768)\n\n### Stats\n\n- **1 PR merged** | **0 new features** | **1 bug fix** | **0 test improvements** | **0 chore**\n\n### Install / Update\n\nThe npm CLI and the Claude Code marketplace/plugin are separate install tracks, not either/or replacements. Update whichever track you use; if you have both installed, update both. CLI-dependent skill paths such as `ask` and CLI-backed `team` require the `omc` CLI from the npm package.\n\n**CLI / runtime:**\n\n```bash\nnpm install -g oh-my-claude-sisyphus@5.7.30\n```\n\n**Claude Code plugin:**\n\n```text\n/plugin marketplace update omc\n```\n\n**Full Changelog**: https://github.com/Yeachan-Heo/oh-my-claudecode/compare/v5.7.29...v5.7.30\n\n## Contributors\n\nThank you to all contributors who made this release possible!\n\n@RobinNorberg @Yeachan-Heo\n",
   "mentions_count": 2
 }
