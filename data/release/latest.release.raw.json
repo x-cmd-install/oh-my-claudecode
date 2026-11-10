@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/431056952",
-  "assets_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/431056952/assets",
-  "upload_url": "https://uploads.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/431056952/assets{?name,label}",
-  "html_url": "https://github.com/Yeachan-Heo/oh-my-claudecode/releases/tag/v5.7.30",
-  "id": 431056952,
+  "url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/439969881",
+  "assets_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/439969881/assets",
+  "upload_url": "https://uploads.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/439969881/assets{?name,label}",
+  "html_url": "https://github.com/Yeachan-Heo/oh-my-claudecode/releases/tag/v5.8.4",
+  "id": 439969881,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,21 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOQ2bIec4ZsWg4",
-  "tag_name": "v5.7.30",
+  "node_id": "RE_kwDOQ2bIec4aOWhZ",
+  "tag_name": "v5.8.4",
   "target_commitish": "main",
-  "name": "v5.7.30",
+  "name": "v5.8.4",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-11-02T03:37:14Z",
-  "updated_at": "2026-11-02T03:59:05Z",
-  "published_at": "2026-11-02T03:59:05Z",
+  "created_at": "2026-11-10T04:47:18Z",
+  "updated_at": "2026-11-10T05:10:54Z",
+  "published_at": "2026-11-10T05:10:54Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/tarball/v5.7.30",
-  "zipball_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/zipball/v5.7.30",
-  "body": "# oh-my-claudecode v5.7.30: Fix Windows executable search in project folder\n\n## Release Notes\n\nThis release fixes a security issue where omc processes on Windows could inadvertently run executables planted in the project folder.\n\n### Bug Fixes\n\n- **fix: stop omc processes on Windows from running executables planted in the project folder** (#4768)\n\n### Stats\n\n- **1 PR merged** | **0 new features** | **1 bug fix** | **0 test improvements** | **0 chore**\n\n### Install / Update\n\nThe npm CLI and the Claude Code marketplace/plugin are separate install tracks, not either/or replacements. Update whichever track you use; if you have both installed, update both. CLI-dependent skill paths such as `ask` and CLI-backed `team` require the `omc` CLI from the npm package.\n\n**CLI / runtime:**\n\n```bash\nnpm install -g oh-my-claude-sisyphus@5.7.30\n```\n\n**Claude Code plugin:**\n\n```text\n/plugin marketplace update omc\n```\n\n**Full Changelog**: https://github.com/Yeachan-Heo/oh-my-claudecode/compare/v5.7.29...v5.7.30\n\n## Contributors\n\nThank you to all contributors who made this release possible!\n\n@RobinNorberg @Yeachan-Heo\n",
-  "mentions_count": 2
+  "tarball_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/tarball/v5.8.4",
+  "zipball_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/zipball/v5.8.4",
+  "body": "# oh-my-claudecode v5.8.4: Hooks improvements, Jev enhancements, Teleport fix\n\n## Release Notes\n\nv5.8.4 is a patch release that adds opt-in shell command checks, improves Jev model routing, fixes worktree teleport for projects without package.json, and hardens Windows plugin hook spawning.\n\n### Highlights\n\n- **feat(hooks): opt-in shell command checks for Bash and PowerShell** (#4925) — enable with `OMC_SHELL_CHECKS=1`\n- **feat(jev): let a use marker pin the model and effort of a model-routing call** (#4924)\n- **fix(teleport): skip the dependency step when the new worktree has no package.json** (#4919)\n\n### Features\n\n- **feat(hooks): opt-in shell command checks for Bash and PowerShell** (#4925)\n- **feat(jev): let a use marker pin the model and effort of a model-routing call** (#4924)\n\n### Bug Fixes\n\n- **fix(jev): Stop completion output, Noul probabilities, loop-continuation excerpt, parent-message notices** (#4923)\n- **fix(teleport): skip the dependency step when the new worktree has no package.json** (#4919)\n- **fix(types): add TypeScript declarations for hook-command-normalizer module**\n- **fix(hooks): spawn plugin hooks without a shell on Windows**\n\n### Stats\n\n- **5 PRs merged** | **2 new features** | **4 bug fixes** | **0 security/hardening improvements** | **0 other changes**\n\n### Install / Update\n\nThe npm CLI and the Claude Code marketplace/plugin are separate install tracks, not either/or replacements. Update whichever track you use; if you have both installed, update both. CLI-dependent skill paths such as `ask` and CLI-backed `team` require the `omc` CLI from the npm package.\n\n**CLI / runtime:**\n\n```bash\nnpm install -g oh-my-claude-sisyphus@5.8.4\n```\n\n**Claude Code plugin:**\n\n```text\n/plugin marketplace update omc\n```\n\n**Full Changelog**: https://github.com/Yeachan-Heo/oh-my-claudecode/compare/v5.8.3...v5.8.4\n"
 }
