@@ -37,7 +37,7 @@ Total: **594,046** lines of code across **1847** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 40,999 · **Forks**: 3,655 · **Open issues**: 1,604 · **Contributors**: 174
+- **Stars**: 41,024 · **Forks**: 3,655 · **Open issues**: 1,604 · **Contributors**: 174
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **594,046** lines of code across **1847** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-23 | 25 | 402 | 25 | 51 | 10 | 449 |
-| last60d | 2026-09-23 | 38 | 715 | 25 | 143 | 10 | 1107 |
-| 90d | 2026-08-24 | 46 | 861 | 25 | 195 | 10 | 1833 |
-| last180d | 2026-05-26 | 62 | 1191 | 25 | 423 | 11 | 2535 |
-| 360d | 2025-11-27 | 100 | 2585 | 25 | 1593 | 11 | 4883 |
-| last720d | 2024-12-02 | 100 | 2585 | 25 | 1593 | 11 | 6343 |
+| 30d | 2026-10-24 | 23 | 365 | 25 | 48 | 10 | 311 |
+| last60d | 2026-09-24 | 38 | 709 | 25 | 142 | 10 | 1031 |
+| 90d | 2026-08-25 | 45 | 859 | 25 | 192 | 10 | 1422 |
+| last180d | 2026-05-27 | 60 | 1180 | 25 | 412 | 11 | 2491 |
+| 360d | 2025-11-28 | 100 | 2585 | 25 | 1593 | 11 | 4883 |
+| last720d | 2024-12-03 | 100 | 2585 | 25 | 1593 | 11 | 6343 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for oh-my-claudecode lives in the [x-cmd/install](https://githu
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261122.yml` · 2026-11-22T07:54:27Z._
+_Snapshot: `data/card/261123.yml` · 2026-11-23T10:18:41Z._
