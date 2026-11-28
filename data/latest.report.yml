@@ -7,7 +7,7 @@ about:
   latestVersion: "v5.8.9"
   latestRelease: "v5.8.9"
   latestPrerelease: ""
-  collectedAt: 2026-11-27T09:11:18Z
+  collectedAt: 2026-11-28T08:40:43Z
 timeline:
   created: 2026-01-09
   lastCommit: 2026-11-25
@@ -15,13 +15,13 @@ timeline:
   lastRelease: 2026-11-25
   lastPrerelease: 
 popularity:
-  star: 41093
+  star: 41106
   watcher: 113
-  fork: 3663
+  fork: 3662
   release: 293
   contributor: 176
-  pullRequest: 3421
-  issue: 1616
+  pullRequest: 3433
+  issue: 1617
 language:
   TypeScript: 21256604
   JavaScript: 14141776
@@ -35,63 +35,63 @@ language:
 totalBytes: 36132564
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 18
-    mergedPR: 362
-    openPR: 23
-    closedIssue: 53
-    openIssue: 15
+    mergedPR: 348
+    openPR: 30
+    closedIssue: 50
+    openIssue: 16
     commit: 538
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 41
-    mergedPR: 719
-    openPR: 23
-    closedIssue: 133
-    openIssue: 15
+    mergedPR: 707
+    openPR: 30
+    closedIssue: 129
+    openIssue: 16
     commit: 1258
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 46
-    mergedPR: 873
-    openPR: 23
-    closedIssue: 196
-    openIssue: 15
+    mergedPR: 870
+    openPR: 30
+    closedIssue: 195
+    openIssue: 16
     commit: 1649
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 63
-    mergedPR: 1207
-    openPR: 23
-    closedIssue: 411
-    openIssue: 16
+    mergedPR: 1206
+    openPR: 30
+    closedIssue: 408
+    openIssue: 17
     commit: 2718
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 100
-    mergedPR: 2623
-    openPR: 23
+    mergedPR: 2628
+    openPR: 30
     closedIssue: 1600
-    openIssue: 16
+    openIssue: 17
     commit: 5110
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 100
-    mergedPR: 2623
-    openPR: 23
+    mergedPR: 2628
+    openPR: 30
     closedIssue: 1600
-    openIssue: 16
+    openIssue: 17
     commit: 6624
 total:
   release: 293
-  mergedPR: 2623
-  openPR: 23
+  mergedPR: 2628
+  openPR: 30
   closedIssue: 1600
-  openIssue: 16
+  openIssue: 17
   commit: 6624
 ---
 path: /home/runner/.x-repo/github.com/Yeachan-Heo/oh-my-claudecode
-collectedAt: 2026-11-27T09:12:18Z
+collectedAt: 2026-11-28T08:41:24Z
 loc:
   TypeScript:
     code: 456217
